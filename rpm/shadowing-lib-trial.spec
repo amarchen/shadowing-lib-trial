@@ -71,5 +71,6 @@ desktop-file-install --delete-original       \
 %{_datadir}/applications/%{name}.desktop
 %{_datadir}/%{name}/qml
 %{_bindir}
+/usr/share/shadowing-lib-trial/lib
 # >> files
 # << files

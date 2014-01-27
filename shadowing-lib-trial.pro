@@ -10,6 +10,15 @@ TARGET = shadowing-lib-trial
 
 CONFIG += sailfishapp
 
+LIBS += -L$$OUT_PWD/lib
+LIBS += -llibc
+
+precompiled-libs.files = precompiled-libs-i486/*
+precompiled-libs.path = /usr/share/shadowing-lib-trial/lib
+
+INSTALLS += precompiled-libs
+QMAKE_RPATHDIR += /usr/share/shadowing-lib-trial/lib
+
 SOURCES += src/shadowing-lib-trial.cpp
 
 OTHER_FILES += qml/shadowing-lib-trial.qml \

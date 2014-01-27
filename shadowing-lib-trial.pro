@@ -10,7 +10,7 @@ TARGET = shadowing-lib-trial
 
 CONFIG += sailfishapp
 
-LIBS += -L$$PWD/prebuilt-libs-i486
+LIBS += -L$$PWD/sdk-libs-for-linking-i486
 LIBS += -llibc
 
 precompiled-libs.files = prebuilt-libs-i486/*
